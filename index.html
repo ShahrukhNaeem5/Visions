@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- AOS -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="Styling/css/style.css">
+
+
+    <!-- Modernizer -->
+    <script src="Styling/js/modernizer.js"></script>
+    <!--  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="Styling/css/carouselstyle.css">
+
+    <!-- END -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Happiness Is Health</title>
+    <!-- EX CSS -->
+    <link rel="stylesheet" href="Styling/css/Style1.css">
+
+
+
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script> -->
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+        
+        footer i {
+            color: WHITE;
+        }
+        
+        @media only screen and (max-width:530px) {
+            #img {
+                width: 180px;
+                margin-right: 0px;
+            }
+            .left-sec h1 {
+                font-size: 25px;
+            }
+        }
+        
+        @media only screen and (max-width:310px) {
+            #img {
+                width: 150px;
+                margin-right: 0px;
+                margin-left: -5px;
+            }
+            .left-sec h1 {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- BOOT -->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- ALERt -->
+    <div id="alert" class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>COVID 19</strong> Masks are still required at all locations. Please read important information about COVID-19 vaccination requirements or testing for some visitors.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- NAVBAR -->
+
+    <header class="hero" id="headerE" style="width: 100%">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg sticky navbar-dark  ">
+
+
+                    <div class="container-fluid">
+
+                        <div>
+                            <a href="index.html">
+                                <img id="img" src="img/logo.png" alt="image" srcset="" height="75px">
+                            </a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon " id="navspan" style="color: black; background-color: black;"></span>
+            </button>
+
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navHo" aria-current="page" href="index.html">HOME</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navRe" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                EDUCATION
+                            </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navDr">
+
+
+
+                                        <li><a class="dropdown-item" href="https://kemu.edu.pk/" id="navDo">King Edward Medical University</a></li>
+                                        <li><a class="dropdown-item" href="http://www.jsmu.edu.pk/" id="navDo">Jinnah Sindh Medical University </a></li>
+                                        <li><a class="dropdown-item" href="https://www.aku.edu/" id="navDo">Aga Khan University</a></li>
+                                        <li><a class="dropdown-item" href="http://baqai.edu.pk/" id="navDo">Baqai Medical University </a></li>
+                                        <li><a class="dropdown-item" href="https://www.duhs.edu.pk/new/dimc-introduction/" id="navDo">Dow International Medical College</a></li>
+                                        <li><a class="dropdown-item" href="https://kmdc.edu.pk/" id="navDo">Karachi Medical & Dental College    </a></li>
+                                        <li><a class="dropdown-item" href="https://www.smbbmu.edu.pk/" id="navDo">Shaheed Mohtarma Benazir Bhutto Medical College   </a></li>
+                                        <li><a class="dropdown-item" href="http://www.jsmu.edu.pk/" id="navDo">Sindh Medical College    </a></li>
+                                        <li><a class="dropdown-item" href="https://rmur.edu.pk/" id="navDo">Rawalpindi Medical University</a></li>
+                                        <li><a class="dropdown-item" href="https://www.fjmu.edu.pk/" id="navDo">Fatima Jinnah Medical College   </a></li>
+                                        <li><a class="dropdown-item" href="https://su.edu.pk/department/sargodha-medical-college" id="navDo">Sargodha Medical College   </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navCo" href=" Blog-Pages/Blog.html">HEALTH BLOGS</a>
+                                </li>
+
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navGa" aria-current="page" href=" Home-Pages/contact.html">CONTACT US</a>
+                                </li>
+
+
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navAb" href=" Home-Pages/About.html">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navAb" href=" Home-Pages/Terms.html">TERM & SERVICES</a>
+                                </li>
+
+
+
+
+
+
+                            </ul>
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                </nav>
+
+
+            </div>
+            <div class="row">
+                <!--  -->
+                <nav class="navbar navbar-expand-lg sticky navbar-dark">
+
+                    <div class="container-fluid">
+
+                        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                            <ul class="navbar-nav ">
+                                 
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navGa" aria-current="page" href=" Services-pages/Hospital.html">HOSPITALS</a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navAb" href=" Services-pages/HomeService.html">HOME SERVICES</a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navAb" href=" Services-pages/Ambulance.html">AMBULANCE SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navCo" href=" Services-pages/Clinics.html">EXECUTIVE CLINICS</a>
+                                </li>
+
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navCo" href=" Services-pages/BloodBank.html">BLOOD BANK</a>
+                                </li>
+
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navAb" href=" Home-Pages/Privicy.html">PRIVACY POLICY</a>
+                                </li>
+
+                            </ul>
+
+
+
+
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <div class="container-fluid" style="  background-image: url(' img/img/BGO.png') ;  background-repeat: no-repeat; background-size: 100% 100%;">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <section class="left-sec " data-aos="fade-up">
+                    <h2 style="font-weight: 600;   ">WE WILL SAVING LIFE TOGETHER</h2>
+                    <h1 style="color: #013a71;  font-family: sans-serif; width: 100%;">WE HAVE THE BEST DOCTORS</h1>
+                    <p>We are here for your care 24/7. Any help just call us.</p>
+                    <a href="Services-pages/Hospital.html"> <button id="Binfo">Best Hospitals</button></a>
+                </section>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <section>
+                    <figure>
+                        <img src=" img/img/Tbg_850x850.png" width="100%" height="100%">
+                    </figure>
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+    <br><br>
+
+
+    <!-- 
+
+    <main style=" margin-top: -20px; width: 100%; height: 100vh; background-image: url(' img/img/BGO.png') ;  background-repeat: no-repeat; ">
+        <section class="left-sec col-lg-6 col-md-12 col-sm-12" data-aos="fade-right">
+         <h2 style="font-weight: 600; height: 100%;  ">WE WILL SAVING LIFE TOGETHER</h2>
+         <h1 style="color: #013a71;  font-family: sans-serif; width: 100%;">WE HAVE THE BEST DOCTORS</h1>
+         <p>We are here for your care 24/7. Any help just call us.</p>
+         <a href=" Appoint-pages/Appoint.html"> <button id="Binfo" > Make Appointment</button></a>
+        </section>
+      
+        <section class="right-sec col-lg-6 col-md-12 col-sm-12">
+         <figure>
+          <img src=" img/img/Tbg_850x850.png" width="100%" height="100%">
+         </figure>
+        </section>
+       </main>
+ -->
+    <!-- APPOINT -->
+
+
+
+
+
+
+
+
+    <div class="container-fluid p-0">
+        <div class="container px-4">
+            <div class="row gx-5">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center" style="margin-bottom:5px">
+                    <div class="col">
+                        <div id="lets" class="p-3 border bg-light">Let's get started</div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-4 col-md-12 col-sm-12 text-center" style="margin-bottom:5px">
+                    <div id="app" class="p-3 border bg-light">DISEASE INFORMATION
+                        <br><br>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            FOR A ...
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a style="font-weight: bolder;" class="dropdown-item" href="Blog-Pages/Blog.html">READ BLOGS</a></li>
+                           <!--      <li><a style="font-weight: bolder;" class="dropdown-item" href=" Appoint-pages/AppointCurrent.html">CURRENT PATIENT</a></li>
+
+                            --> </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 text-center " style="margin-bottom:5px">
+                    <div id="app" class="p-3 border bg-light">FIND A HOSPITAL
+                        <br><br>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            WITH IN ...
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a style="font-weight: bolder;" class="dropdown-item" href=" HospitalList/Aga_khan-Hospital.html">AGA KHAN HOSPITAL</a></li>
+                                <li><a style="font-weight: bolder;" class="dropdown-item" href=" HospitalList/Burhani-Hospital.html">BURHANI HOSPITAL</a></li>
+                                <li><a style="font-weight: bolder;" class="dropdown-item" href=" HospitalList/Dow_University-Hospital.html">DOW UNIVERSITY HOSPITAL</a></li>
+
+                                <li><a style="font-weight: bolder;" class="dropdown-item" href=" HospitalList/Maamji-Hospital.html">MAAMJI HOSPITAL</a></li>
+                                <li><a style="font-weight: bolder;" class="dropdown-item" href=" HospitalList/Memon-Hospital.html">MEMON HOSPITAL</a></li>
+                                <li><a style="font-weight: bolder;" class="dropdown-item" href=" HospitalList/National-Medical_hospital.html">NATIONAL MEDICAL HOSPITAL</a>
+                                </li>
+                                <li><a style="font-weight: bolder;" class="dropdown-item" href=" HospitalList/OMI-Hospital.html">OMI HOSPITAL</a></li>
+                                <li><a style="font-weight: bolder;" class="dropdown-item" href=" HospitalList/Patel-Hospital.html">PATEL HOSPITAL</a></li>
+                                <li><a style="font-weight: bolder;" class="dropdown-item" href=" HospitalList/Saifee-Hospital.html">SAIFEE HOSPITAL</a></li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 text-center" style="margin-bottom:5px">
+                    <div id="app" class="p-3 border bg-light">FIND A DOCTOR
+                        <br><br>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            BEST DOCTORS ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a style="font-weight: bolder; padding: 5px; " class="dropdown-item" href=" Services-pages/Dentist.html">BEST DENTIST IN KARACHI
+                                </a></li>
+                                <li><a style="font-weight: bolder; padding: 5px;" class="dropdown-item" href=" Services-pages/Oncologist.html">BEST ONCOLOGIST IN KARACHI</a></li>
+                                <li><a style="font-weight: bolder; padding: 5px;" class="dropdown-item" href=" Services-pages/Gynecologist.html">BEST GYNECOLOGIST IN KARACHI</a></li>
+                                <li><a style="font-weight: bolder ; padding: 5px;" class="dropdown-item" href=" Services-pages/Neurologist.html">BEST NEUROLOGIST IN KARACHI</a></li>
+                                <li><a style="font-weight: bolder ; padding: 5px;" class="dropdown-item" href=" Services-pages/Cardiologist.html">BEST CARDIOLOGIST IN KARACHI </a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+        <!-- BG IMG -->
+        <div class="container px-4" style="background-color: #013a71;">
+            <div class="row gx-5">
+                <div class="col-lg-6 col-md-10 col-sm-12" id="mtext">
+                    <div class="p-3" id="ctext">Innovative, compassionate Diarrhea care that's close to home.
+                        <br>
+                        <a href=" Blog-Pages/Diarrhea.html"> <button type="button" class="button1">Learn
+                            More</button></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-10 col-sm-12 " data-aos="fade-up">
+                    <div class="p-3">
+                        <img src=" img/circle.png" alt="" srcset="" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br><br>
+
+
+        <br>
+        <!-- 3Section -->
+
+        <!--  -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md" data-aos="fade-down">
+                    <div class="p-3 border " style="background:url( img/coronavirus.jpg) fixed ; width: 100%;">
+                        <div><br><br>
+                            <span style="font-size: 50px; background-color: #41b5eb; font-weight: bolder; color: white;">
+                            COVID 
+                        </span>
+
+                        </div>
+                        <!-- <br><br><br><br><br> -->
+                        <a href=" Blog-Pages/Covid-Blog.html"> <button id="info"> All
+                            information</button></a>
+                    </div>
+                </div>
+                <div class="col-md" data-aos="fade-up">
+                    <div class="p-3 border " style="background:url( img/hypatytis.jpg) fixed center ; width: 100%;">
+                        <div><br><br>
+                            <span style="font-size: 50px; background-color: #41b5eb; font-weight: bolder; color: white;">
+                            Hepatitis 
+                        </span>
+
+                        </div>
+                        <!--   <br><br><br><br><br><br><br><br> -->
+                        <a href=" Blog-Pages/Liver_Repair.html"> <button id="info"> All
+                            information</button></a>
+
+
+                    </div>
+                </div>
+                <div class="col-md" data-aos="fade-down">
+                    <div class="p-3 border " style="background:url( img/monkeypox.jpg) fixed  ; width: 100%;  ">
+                        <div><br><br>
+                            <span style="font-size: 50px; background-color: #41b5eb; font-weight: bolder; color: white;">
+                            Diabetes
+                        </span>
+
+                        </div>
+                        <!--   <br><br><br><br><br><br><br><br> -->
+                        <a href=" Blog-Pages/Diabites.html"> <button id="info"> All
+                            information</button></a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+        <br><br><br>
+
+        <!-- HOSPITAL -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                    <div class="p-3 text-center" style="margin-top: 10%;"><img src=" img/Hospt.jpg" alt="" width="80%" height="80%"></div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
+                    <div class="p-3 border bg-light" style="margin-top: 10%;">
+
+                        <h2 style="color: #013a71; ">Best Hospital of Karachi</h2><br>
+                        <p>The Happiness is Health, a platform where you can find best hospital of karachi and meet them online and book your appointment
+                            <br>The Happiness is Health has been built up to bridge a patient with the right healthcare providers. Our focus is to improve the quality of healthcare ecosystem by making it accessible and affordable for everyone.
+                        </p>
+
+                        <a href=" Services-pages/Hospital.html"> <button type="button" class="button2">Explore</button></a>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CLINIC -->
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
+                    <div class="p-4 border bg-light" style="margin-top: 10%;">
+
+                        <h2 style="color: #013a71; ">Best Clinics of Karachi</h2><br>
+                        <p>The Happiness is Health, a platform where you can find best clinics of karachi and meet them online and book your appointment
+                            <br>The Happiness is Health has been built up to bridge a patient with the right healthcare providers. Our focus is to improve the quality of healthcare ecosystem by making it accessible and affordable for everyone.
+                        </p>
+
+                        <a href=" Services-pages/Clinics.html"> <button type="button" class="button2">Explore</button></a>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                    <div class="p-4 text-center" style="margin-top: 10%;"><img src=" img/cclinic.png" alt="" width="80%" height="80%"></div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- BLOOD BANK -->
+
+
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                    <div class="p-4 text-center " style="margin-top: 10%;"><img src=" img/BloodBank1.png" alt="" width="80%" height="80%"></div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
+                    <div class="p-3 border bg-light" style="margin-top: 10%;">
+
+                        <h2 style="color: #013a71;">Best Blood Banks of Karachi</h2><br>
+                        <p>The Happiness is Health, a platform where you can find best Blood Bank of karachi and meet them online and book your appointment
+                            <br>The Happiness is Health has been built up to bridge a patient with the right healthcare providers. Our focus is to improve the quality of healthcare ecosystem by making it accessible and affordable for everyone.
+
+
+                        </p>
+
+                        <a href=" Services-pages/BloodBank.html"> <button type="button" class="button2">Explore</button></a>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home Services -->
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-6 col-md-12 col-sm-12 " data-aos="fade-up">
+                    <div class="p-3  border bg-light" style="margin-top: 10%;">
+
+                        <h2 style="color: #013a71;">Best Home Services of Karachi</h2><br>
+                        <p>The Happiness is Health, a platform where you can find best Home Service of karachi and meet them online and book your appointment
+                            <br>The Happiness is Health has been built up to bridge a patient with the right healthcare providers.
+
+
+                        </p>
+
+                        <a href=" Services-pages/HomeService.html"> <button type="button" class="button2">Explore</button></a>
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                    <div class="p-3 text-center" style="margin-top: 10%;"><img src=" img/homeservice.png" alt="" width="80%" height="80%"></div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- AMBULANCE -->
+
+
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                    <div class="p-3 text-center" style="margin-top: 10%;"><img src=" img/img/Ambulance_400x300.png" width="80%" height="80%" alt=""></div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
+                    <div class="p-3 border bg-light" style="margin-top: 10%;">
+
+                        <h2 style="color: #013a71;">Best Ambulance Services of Karachi</h2><br>
+                        <p>The Happiness is Health, a platform where you can find best Ambulance Services of karachi and meet them online and book your Ambulance
+                            <br>The Happiness is Health has been built up to bridge a patient with the right healthcare providers. Our focus is to improve the quality of healthcare ecosystem by making it accessible and affordable for everyone.
+
+
+                        </p>
+
+                        <a href=" Services-pages/Ambulance.html"> <button type="button" class="button2">Explore</button></a>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DENTIST-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
+                    <div class="p-3 border bg-light" style="margin-top: 10%;">
+
+                        <h2 style="color: #013a71;">Best Dentist of Karachi</h2><br>
+                        <p>The Happiness is Health, a platform where you can find best Dentist of karachi and meet them online and book your appointment
+                            <br>The Happiness is Health has been built up to bridge a patient with the right healthcare providers.
+
+
+                        </p>
+
+                        <a href=" Services-pages/Dentist.html"> <button type="button" class="button2">Explore</button></a>
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-down">
+                    <div class="p-3 text-center" style="margin-top: 10%;"><img src=" img/img/DentistHome.jpg" alt="" width="80%" height="80%"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+        <!-- CARUSEL -->
+
+        <!-- START TESTIMONIAL -->
+        <section id="testimonial_area" class="section_padding" data-aos="fade-up" style="background: url( img/img/Bnner1.png) center;  ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="testmonial_slider_area text-center owl-carousel">
+
+                            <div class="box-area">
+                                <a href="
+                            http://nicvd.org/ 
+                            ">
+                                    <div class="img-area">
+                                        <img src=" img/Cnicd.png" alt="">
+                                </a>
+                                </div>
+
+                                <h5>N.I.C.v.D Hospital</h5>
+
+
+
+                            </div>
+                            <!-- END SINGLE TESTIMONIALS -->
+                            <!-- END SINGLE TESTIMONIALS -->
+
+                            <div class="box-area">
+                                <a href="https://burhanihospital.org.pk/">
+                                    <div class="img-area">
+
+                                        <img src=" img/img/burhani-logo.png" alt="">
+                                </a>
+                                </div>
+
+
+                                <h5>Burhani Hospital</h5>
+
+
+
+                            </div>
+                            <!-- END SINGLE TESTIMONIALS -->
+                            <!-- END SINGLE TESTIMONIALS -->
+
+                            <div class="box-area">
+                                <a href="https://mamjihospital.com/">
+                                    <div class="img-area">
+
+                                        <img src=" img/img/mamji-logo.png" alt="">
+                                </a>
+                                </div>
+
+                                <h5>Mamji Hospital</h5>
+
+
+
+                            </div>
+                            <!-- END SINGLE TESTIMONIALS -->
+
+                            <div class="box-area">
+                                <a href="https://southcityhospital.org/">
+                                    <div class="img-area">
+                                        <img src=" img/img/HsouthcityH-modified.png" alt="">
+                                </a>
+
+                                </div>
+
+                                <h5>South City Hospital</h5>
+
+
+
+                            </div>
+                            <!-- END SINGLE TESTIMONIALS -->
+                            <!-- END SINGLE TESTIMONIALS -->
+
+                            <div class="box-area">
+                                <a href="https://www.saifeehospital.com.pk/">
+                                    <div class="img-area">
+                                        <img src=" img/img/Saifee-Hospita-logo.png" alt="">
+                                </a>
+                                </div>
+
+                                <h5>Saifee Hospital</h5>
+
+
+
+                            </div>
+                            <!-- END SINGLE TESTIMONIALS -->
+                            <!-- END SINGLE TESTIMONIALS -->
+
+                            <div class="box-area">
+                                <a href="https://patel-hospital.org.pk/">
+                                    <div class="img-area">
+                                        <img src=" img/img/Patel-logo.png" alt="">
+                                </a>
+                                </div>
+
+                                <h5>Patel Hospital</h5>
+
+
+
+                            </div>
+                            <!-- END SINGLE TESTIMONIALS -->
+                            <div class="box-area">
+                                <a href="https://www.lnh.edu.pk/">
+                                    <div class="img-area">
+                                        <img src=" img/img/Hliaquet.png " alt="">
+                                </a>
+                                </div>
+
+                                <h5>Liaquat National Hospital</h5>
+
+
+
+                            </div>
+                            <!-- END SINGLE TESTIMONIALS -->
+                            <div class="box-area">
+                                <a href="https://hospitals.aku.edu/pakistan/ForPatientAndVisitors/Pages/FindADoctor.aspx">
+                                    <div class="img-area">
+                                        <img src=" img/img/agakhanlogo2.png" alt="">
+                                </a>
+                                </div>
+
+                                <h5>Aga Khan Hospital</h5>
+
+
+
+                            </div>
+                            <!-- END SINGLE TESTIMONIALS -->
+                            <!-- END SINGLE TESTIMONIALS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- FOOTER -->
+
+      <footer style="background-color:#013a71; margin-top: -25px;">
+        <section class="mt-4">
+            <div class="container pt-4">
+                <div class="row w-100">
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                        <h5> Contact With Us </h5>
+                        <br><br>
+
+
+
+                        <div class="contact-info d-flex justify-content-start">
+                            <i style="color: white;" class="fa fa-globe icon"></i>
+                            <div class="info-text">
+                                <h6>Head Office</h6>
+                                <p>SD-1, Block A North Nazimabad Town, Karachi</p>
+                            </div>
+                        </div>
+                        <div class="contact-info pt-3 d-flex justify-content-start flex-wrap">
+                            <i style="color: white;" style="color: white;" class="fa fa-envelope icon"></i>
+                            <div class="info-text">
+                                <h6>Email</h6>
+                                <a href="mailto:shahrukhaptech5@gmail.com"><span>shahrukhaptech5@gmail.com</span></a>
+                            </div>
+                        </div>
+                        <div class="contact-info pt-3 d-flex justify-content-start flex-wrap helpline-hide">
+                            <i style="color: white;" class="fa fa-phone icon"></i>
+                            <div class="info-text">
+                                <h6>Phone</h6>
+                                <p><a href="tel:03112832876">0311 2832876</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-info pt-3 d-flex justify-content-start flex-wrap helpline-hide">
+                            <i style="color: white;" class="fa fa-phone icon"></i>
+                            <div class="info-text">
+                                <h6>Call Center Timings</h6>
+                                <p>10 AM to 11 PM</p>
+                                <p>(Monday - Saturday)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                        <h5> Company </h5>
+                        <br><br>
+
+
+                        <ul class="links">
+                            <li><a href=" Home-Pages/About.html">About us</a></li><br>
+                            <li><a href=" Home-Pages/contact.html">Contact us</a></li><br>
+                            <li><a href=" Home-Pages/Terms.html">Terms & Conditions</a></li><br>
+                            <li><a href=" Home-Pages/Privicy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <br> <br> <br>
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+
+                        <h5>Useful Links</h5>
+
+                        <br><br>
+
+                        <ul class="links">
+
+                            <li><a href=" Services-pages/Hospital.html">Hospitals in Karachi</a></li><br>
+                            <li><a href=" Services-pages/Clinics.html">Clinics in Karachi</a></li><br>
+                            <li><a href=" Services-pages/BloodBank.html">BloodBank in Karachi</a></li><br>
+                            <li><a href=" Services-pages/Ambulance.html">Ambulances in Karachi</a></li><br>
+
+                            <li><a href=" Services-pages/HomeService.html">Home Service in Karachi</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                        <h5>Connect With Us</h5>
+                       
+
+                        
+                        <div id="social-icons" class="d-flex align-items-center flex-wrap">
+                            <a href="https://twitter.com" target="_blank" class="m-2">
+                                <svg version="1.1" id="Capa_1" width="20px" height="20px"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                    xml:space="preserve">
+                                    <g>
+                                        <path style="fill:#03A9F4;"
+                                            d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.4C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568C480.224,136.96,497.728,118.496,512,97.248z" />
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://www.facebook.com" target="_blank" class="m-2">
+                                <svg version="1.1" id="Capa_1" width="20px" height="20px"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 112.196 112.196"
+                                    style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve">
+                                    <g>
+                                        <circle style="fill:#3B5998;" cx="56.098" cy="56.098" r="56.098" />
+                                        <path style="fill:#FFFFFF;"
+                                            d="M70.201,58.294h-10.01v36.672H45.025V58.294h-7.213V45.406h7.213v-8.34c0-5.964,2.833-15.303,15.301-15.303L71.56,21.81v12.51h-8.151c-1.337,0-3.217,0.668-3.217,3.513v7.585h11.334L70.201,58.294z" />
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" class="m-1">
+                                <svg version="1.1" id="Capa_1" width="20px" height="20px"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 112.196 112.196"
+                                    style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve">
+                                    <circle style="fill:#007AB9;" cx="56.098" cy="56.097" r="56.098" />
+                                    <g>
+                                        <path style="fill:#F1F2F2;"
+                                            d="M89.616,60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118c-3.705,0-5.906,2.491-6.878,4.903c-0.353,0.862-0.444,2.059-0.444,3.268v22.524H48.684c0,0,0.18-36.546,0-40.329h13.411v5.715c-0.027,0.045-0.065,0.089-0.089,0.132h0.089v-0.132c1.782-2.742,4.96-6.662,12.085-6.662C83.002,42.462,89.616,48.226,89.616,60.611L89.616,60.611z M34.656,23.969c-4.587,0-7.588,3.011-7.588,6.967c0,3.872,2.914,6.97,7.412,6.97h0.087c4.677,0,7.585-3.098,7.585-6.97C42.063,26.98,39.244,23.969,34.656,23.969L34.656,23.969z M27.865,83.739H41.27V43.409H27.865V83.739z" />
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" class="m-2">
+                                <svg enable-background="new 0 0 24 24" height="20px" viewBox="0 0 24 24" width="20px"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <linearGradient id="SVGID_1_"
+                                        gradientTransform="matrix(0 -1.982 -1.844 0 -132.522 -51.077)"
+                                        gradientUnits="userSpaceOnUse" x1="-37.106" x2="-26.555" y1="-72.705"
+                                        y2="-84.047">
+                                        <stop offset="0" stop-color="#fd5" />
+                                        <stop offset=".5" stop-color="#ff543e" />
+                                        <stop offset="1" stop-color="#c837ab" />
+                                    </linearGradient>
+                                    <path
+                                        d="m1.5 1.633c-1.886 1.959-1.5 4.04-1.5 10.362 0 5.25-.916 10.513 3.878 11.752 1.497.385 14.761.385 16.256-.002 1.996-.515 3.62-2.134 3.842-4.957.031-.394.031-13.185-.001-13.587-.236-3.007-2.087-4.74-4.526-5.091-.559-.081-.671-.105-3.539-.11-10.173.005-12.403-.448-14.41 1.633z"
+                                        fill="url(#SVGID_1_)" />
+                                    <path
+                                        d="m11.998 3.139c-3.631 0-7.079-.323-8.396 3.057-.544 1.396-.465 3.209-.465 5.805 0 2.278-.073 4.419.465 5.804 1.314 3.382 4.79 3.058 8.394 3.058 3.477 0 7.062.362 8.395-3.058.545-1.41.465-3.196.465-5.804 0-3.462.191-5.697-1.488-7.375-1.7-1.7-3.999-1.487-7.374-1.487zm-.794 1.597c7.574-.012 8.538-.854 8.006 10.843-.189 4.137-3.339 3.683-7.211 3.683-7.06 0-7.263-.202-7.263-7.265 0-7.145.56-7.257 6.468-7.263zm5.524 1.471c-.587 0-1.063.476-1.063 1.063s.476 1.063 1.063 1.063 1.063-.476 1.063-1.063-.476-1.063-1.063-1.063zm-4.73 1.243c-2.513 0-4.55 2.038-4.55 4.551s2.037 4.55 4.55 4.55 4.549-2.037 4.549-4.55-2.036-4.551-4.549-4.551zm0 1.597c3.905 0 3.91 5.908 0 5.908-3.904 0-3.91-5.908 0-5.908z"
+                                        fill="#fff" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div>
+                            <div class="d-flex flex-row justify-content-start app-logos ml-n2">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-100 mb-n4">
+                    <div class="col-12">
+                        <p class="text-center" id="rights">Copyright © 2018-2021 HAPPINESS IS HEALTH | All Rights Are
+                            Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+        <!-- 
+</div> -->
+        <!-- AOS -->
+
+        <!-- JAVASCRIPT -->
+
+        <script src="Styling/js/all.js "></script>
+        <script src="Styling/js/bootstrap.min.js "></script>
+
+
+
+        <script src="Styling/js/custom.js "></script>
+
+
+
+        <!-- TESTIMONIAL -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+        <script>
+            $(".testmonial_slider_area").owlCarousel({
+                autoplay: true,
+                slideSpeed: 1000,
+                items: 3,
+                loop: true,
+                nav: true,
+                navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
+                margin: 30,
+                dots: true,
+                responsive: {
+                    320: {
+                        items: 1
+                    },
+                    767: {
+                        items: 2
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+
+            });
+        </script>
+        <!-- AOS -->
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 300,
+                duration: 1000,
+            });
+        </script>
+</body>
+
+</html>

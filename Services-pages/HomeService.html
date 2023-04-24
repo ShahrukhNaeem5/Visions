@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- EX CSS -->
+    <link rel="stylesheet" href="../Styling/css/Style1.css">
+
+
+
+
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script> -->
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+        
+        .nav-item {
+            list-style: none;
+        }
+        
+        @media only screen and (max-width: 991px) {
+            .query {
+                text-align: center;
+            }
+        }
+        
+        @media only screen and (max-width: 767px) {
+            .search {
+                text-align: left !important;
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (max-width:530px) {
+            #img {
+                width: 180px;
+                margin-right: 0px;
+            }
+            .left-sec h1 {
+                font-size: 25px;
+            }
+        }
+        
+        @media only screen and (max-width:310px) {
+            #img {
+                width: 150px;
+                margin-right: 0px;
+                margin-left: -5px;
+            }
+            .left-sec h1 {
+                font-size: 25px;
+            }
+        }
+    </style>
+    <title>Home Services</title>
+</head>
+
+<body>
+    <!-- BOOT -->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- ALERt -->
+    <div id="alert" class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>COVID 19</strong> Masks are still required at all locations. Please read important information about COVID-19 vaccination requirements or testing for some visitors.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+
+    <!-- NAVBAR -->
+    <header class="hero" id="headerE" style="width: 100%">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg sticky navbar-dark  ">
+
+
+                    <div class="container-fluid">
+
+                        <div>
+                            <a href=" ../index.html">
+                                <img id="img" src="./../img/logo.png" alt="image" srcset="" height="75px">
+                            </a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon " id="navspan" style="color: black; background-color: black;"></span>
+            </button>
+
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navHo" aria-current="page" href=" ../index.html">HOME</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navRe" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                EDUCATION
+                            </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navDr">
+
+
+
+                                        <li><a class="dropdown-item" href="https://kemu.edu.pk/" id="navDo">King Edward Medical University</a></li>
+                                        <li><a class="dropdown-item" href="http://www.jsmu.edu.pk/" id="navDo">Jinnah Sindh Medical University </a></li>
+                                        <li><a class="dropdown-item" href="https://www.aku.edu/" id="navDo">Aga Khan University</a></li>
+                                        <li><a class="dropdown-item" href="http://baqai.edu.pk/" id="navDo">Baqai Medical University </a></li>
+                                        <li><a class="dropdown-item" href="https://www.duhs.edu.pk/new/dimc-introduction/" id="navDo">Dow International Medical College</a></li>
+                                        <li><a class="dropdown-item" href="https://kmdc.edu.pk/" id="navDo">Karachi Medical & Dental College    </a></li>
+                                        <li><a class="dropdown-item" href="https://www.smbbmu.edu.pk/" id="navDo">Shaheed Mohtarma Benazir Bhutto Medical College   </a></li>
+                                        <li><a class="dropdown-item" href="http://www.jsmu.edu.pk/" id="navDo">Sindh Medical College    </a></li>
+                                        <li><a class="dropdown-item" href="https://rmur.edu.pk/" id="navDo">Rawalpindi Medical University</a></li>
+                                        <li><a class="dropdown-item" href="https://www.fjmu.edu.pk/" id="navDo">Fatima Jinnah Medical College   </a></li>
+                                        <li><a class="dropdown-item" href="https://su.edu.pk/department/sargodha-medical-college" id="navDo">Sargodha Medical College   </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navCo" href="../Blog-Pages/Blog.html">HEALTH BLOGS</a>
+                                </li>
+
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navGa" aria-current="page" href="../Home-Pages/contact.html">CONTACT US</a>
+                                </li>
+
+
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navAb" href="../Home-Pages/About.html">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navAb" href="../Home-Pages/Terms.html">TERM & SERVICES</a>
+                                </li>
+
+
+
+
+
+
+                            </ul>
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                </nav>
+
+
+            </div>
+            <div class="row">
+                <!--  -->
+                <nav class="navbar navbar-expand-lg sticky navbar-dark">
+
+                    <div class="container-fluid">
+
+                        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                            <ul class="navbar-nav ">
+                                 
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navGa" aria-current="page" href="../Services-pages/Hospital.html">HOSPITALS</a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navAb" href="../Services-pages/HomeService.html">HOME SERVICES</a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navAb" href="../Services-pages/Ambulance.html">AMBULANCE SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navCo" href="../Services-pages/Clinics.html">EXECUTIVE CLINICS</a>
+                                </li>
+
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navCo" href="../Services-pages/BloodBank.html">BLOOD BANK</a>
+                                </li>
+
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link " id="navAb" href="../Home-Pages/Privicy.html">PRIVACY POLICY</a>
+                                </li>
+
+                            </ul>
+
+
+
+
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+    <br><br>
+    <!-- START -->
+
+    <div class="container overflow-hidden">
+        <div class="row gx-5">
+
+            <div class="col" style=" background-image: url(../img/banner1.jpg) ">
+                <div class="p-3 border ">
+
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href=" ../index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Home Services</li>
+                        </ol>
+                    </nav>
+
+                    <h1>Best Home Services In Karachi
+                    </h1>
+
+                    <h5>Last Updated On Thursday, June 30, 2022
+                    </h5><br>
+                    <p>want to search for the best healthcare specialists in any of the Government or Private Home Services in Karachi. These Home Services provide the best diagnosis, medication, operational treatment, and experienced healthcare professionals
+                        . With Instacare you can find the best doctors, know their consultation timings, availability and fees. To book an online appointment , please visit Our Website.
+                    </p>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br>
+    <!-- AREA -->
+    <div class="container overflow-hidden">
+        <div class="row gx-8">
+
+
+            <div class="col-lg-6 col-md-8 col-sm-12 text-center ">
+                <div class="p-3 border " style=" width: 300px; ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navRe" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           RELATED SPECIALITIES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navDre">
+
+
+
+                            <li><a class="dropdown-item" href="../Services-pages/Dentist.html" id="navDos">Best Dentist in Karachi</a></li>
+                            <li><a class="dropdown-item" href="../Services-pages/Cardiologist.html" id="navDos">Best Cardiologist in Karachi</a></li>
+                            <li><a class="dropdown-item" href="../Services-pages/Gynecologist.html" id="navDos">Best Gynecologist in Karachi</a></li>
+                            <li><a class="dropdown-item" href="../Services-pages/Oncologist.html" id="navDos">Best Oncologist in Karachi </a></li>
+                            <li><a class="dropdown-item" href="../Services-pages/Neurologist.html" id="navDos">Best Neurologist in Karachi</a></li>
+
+                        </ul>
+                    </li>
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+            <!-- SEARCH -->
+
+            <div class="col-lg-6 col-md-6 col-sm-8 search" style="text-align: right;">
+                <div class="p-3">
+                    <input id="myInput" type="text" placeholder="Search..">
+                </div>
+            </div>
+        </div>
+
+
+        <!--HOME SERVICE -->
+        <br><br><br>
+
+        <!-- _______________________________________________________________________________ -->
+
+
+        <table>
+
+            <tbody id="myTable">
+                <tr>
+                    <td><br>
+
+                        <!-- EhsaasHealthSrvice -->
+                        <div class="row g-0" id="shadowmt">
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center"><img src="../img/HEhsaasHealthSrvice-modified.png" alt="" srcset=""></div>
+                            <div class="col-lg-6 col-md-12 query " id="heading">
+                                <h3>Ehsaas Health Service</h3><br>
+                                <h5 id="grey">V2F9+38F, Millat Nagar Hashim Khan Haq Nagri, Karachi</h5>
+
+                                <a href="https://goo.gl/maps/NdgPjwtVjPAQpHMs7">
+                                    <button id="iconb"><span><img src="../img/google-maps.png" alt="" srcset=""
+                                                    id="icon"></span>&nbsp;&nbsp;<span>See on Google
+                                                Map</span></button></a>
+
+
+                            </div>
+
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center">
+                                <div class="container" id="button2">
+                                    <div class="row g-2">
+
+                                        <div class="col-12">
+                                            <a href="https://www.ehsaashealthservice.com/"> <button id="but1" class="btn " type="button">View Profile</button></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="tel:+1122">
+                                                <button id="but" class="btn btn-primary" type="button">Call
+                                                    Helpline</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <!-- karachipatientscare-->
+                        <div class="row g-0" id="shadowmt">
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center"><img src="../img/Hkarachipatientscare-modified.png" alt="" srcset=""></div>
+                            <div class="col-lg-6 col-md-12 query" id="heading">
+                                <h3>Karachi Patients Care</h3><br>
+                                <h5 id="grey">Suit# 104/B, Ist Floor, Al-Mustafa Trade Center، Tariq Rd, P.E.C.H.S Block 2 Block 2 PECHS, Karachi</h5>
+                                <h5 id="grey">138 Total Doctors</h5>
+                                <a href="https://g.page/Karachi-patient-care?share">
+                                    <button id="iconb"><span><img src="../img/google-maps.png" alt="" srcset=""
+                                                    id="icon"></span>&nbsp;&nbsp;<span>See on Google
+                                                Map</span></button></a>
+
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center">
+                                <div class="container" id="button2">
+                                    <div class="row g-2">
+
+                                        <div class="col-12">
+                                            <a href="http://karachipatientcare.com/"> <button id="but1" class="btn " type="button">View Profile</button></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="tel:+1122">
+                                                <button id="but" class="btn btn-primary" type="button">Call
+                                                    Helpline</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+                <!-- liaquet -->
+                <tr>
+                    <td>
+                        <div class="row g-0" id="shadowmt">
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center"><img src="../img/Hliaquet.png" alt="" srcset=""></div>
+                            <div class="col-lg-6 col-md-12 query " id="heading">
+                                <h3>Liaquat National Hospital Home Service</h3><br>
+                                <h5 id="grey">and Medical College, National Stadium Rd, Liaquat National Hospital, Karachi
+                                </h5>
+                                <h5 id="grey">121 Total Doctors</h5>
+                                <a href="https://goo.gl/maps/q8tvMFwLRU9kNJfWA">
+                                    <button id="iconb"><span><img src="../img/google-maps.png" alt="" srcset=""
+                                                    id="icon"></span>&nbsp;&nbsp;<span>See on Google
+                                                Map</span></button></a>
+
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center">
+                                <div class="container" id="button2">
+                                    <div class="row g-2">
+
+                                        <div class="col-12">
+                                            <a href="https://www.lnh.edu.pk/services/home-health-care-service">
+                                                <button id="but1" class="btn " type="button">View
+                                                        Profile</button></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="tel:+1122">
+                                                <button id="but" class="btn btn-primary" type="button">Call
+                                                    Helpline</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <!-- southcityH-->
+
+                        <div class="row g-0" id="shadowmt">
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center"><img src="../img/HsouthcityH-modified.png" alt="" srcset="">
+                            </div>
+                            <div class="col-lg-6 col-md-12 query " id="heading">
+                                <h3>South City H</h3><br>
+                                <h5 id="grey">St-1 Shahrah-e-Firdousi, Block 3 Clifton, Karachi
+
+                                </h5>
+                                <h5 id="grey">117 Total Doctors</h5>
+                                <a href="https://goo.gl/maps/RXZxuTBSig15JADS7">
+                                    <button id="iconb"><span><img src="../img/google-maps.png" alt="" srcset=""
+                                                    id="icon"></span>&nbsp;&nbsp;<span>See on Google
+                                                Map</span></button></a>
+
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center">
+                                <div class="container" id="button2">
+                                    <div class="row g-2">
+
+                                        <div class="col-12">
+                                            <a href="https://southcityhospital.org/index.php/for-patients/home-health-care">
+                                                <button id="but1" class="btn " type="button">View
+                                                        Profile</button></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="tel:+1122">
+                                                <button id="but" class="btn btn-primary" type="button">Call
+                                                    Helpline</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <!-- uniquehealthservice-->
+
+                        <div class="row g-0" id="shadowmt">
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center"><img src="../img/Huniquehealthservice-modified.png" alt="" srcset=""></div>
+                            <div class="col-lg-6 col-md-12 query " id="heading">
+                                <h3>Unique Health Service</h3><br>
+                                <h5 id="grey">UMHS, Plot# 374, Sector 2B, 1st Floor, Empress St Opposite Allahwali Masjid, nr. Basharat Park, Saddar, Karachi
+
+                                </h5>
+                                <h5 id="grey">75 Total Doctors</h5>
+                                <a href="https://g.page/UNIQUE-Medical-HealthcareService?share">
+                                    <button id="iconb"><span><img src="../img/google-maps.png" alt="" srcset=""
+                                                    id="icon"></span>&nbsp;&nbsp;<span>See on Google
+                                                Map</span></button></a>
+
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center">
+                                <div class="container" id="button2">
+                                    <div class="row g-2">
+
+                                        <div class="col-12">
+                                            <a href="http://www.unique-mhs.com/"> <button id="but1" class="btn " type="button">View Profile</button></a>
+
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="tel:+1122">
+                                                <button id="but" class="btn btn-primary" type="button">Call
+                                                    Helpline</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Dua Home Nursing -->
+
+                        <div class="row g-0" id="shadowmt">
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center"><img src="../img/Himages-modified.png" alt="" srcset="">
+                            </div>
+                            <div class="col-lg-6 col-md-12 query" id="heading">
+                                <h3>Dua Home Nursing Care</h3><br>
+                                <h5 id="grey">Block G North Nazimabad Town, Karachi
+
+                                </h5>
+                                <h5 id="grey">90 Total Doctors</h5>
+                                <a href="https://goo.gl/maps/Ern3gHsg5xqJuscp7">
+                                    <button id="iconb"><span><img src="../img/google-maps.png" alt="" srcset=""
+                                                    id="icon"></span>&nbsp;&nbsp;<span>See on Google
+                                                Map</span></button></a>
+
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center">
+                                <div class="container" id="button2">
+                                    <div class="row g-2">
+
+                                        <div class="col-12">
+                                            <a href="https://duahealthcare.com/"> <button id="but1" class="btn " type="button">View Profile</button></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="tel:+1122">
+                                                <button id="but" class="btn btn-primary" type="button">Call
+                                                    Helpline</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Aga Khan Hospital Home Ser -->
+
+                        <div class="row g-0" id="shadowmt">
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center"><img src="../img/Hagakhan.png" alt="" srcset=""></div>
+                            <div class="col-lg-6 col-md-12 query" id="heading">
+                                <h3>Aga Khan Hospital Home Service</h3><br>
+                                <h5 id="grey">National Stadium Rd, Aga Khan University Hospital, Karachi</h5>
+                                <h5 id="grey">93 Total Doctors</h5>
+                                <a href="https://goo.gl/maps/g7SGD8M6TXME73zS8">
+                                    <button id="iconb"><span><img src="../img/google-maps.png" alt="" srcset=""
+                                                    id="icon"></span>&nbsp;&nbsp;<span>See on Google
+                                                Map</span></button></a>
+
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-md-12 text-center">
+                                <div class="container" id="button2">
+                                    <div class="row g-2">
+
+                                        <div class="col-12">
+                                            <a href="https://hospitals.aku.edu/pakistan/medical-and-diagnostics/home-health-care/Pages/Home-Health-Services.aspx">
+                                                <button id="but1" class="btn " type="button">View
+                                                        Profile</button></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="tel:+1122">
+                                                <button id="but" class="btn btn-primary" type="button">Call
+                                                    Helpline</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <!-- FOOTER -->
+
+  <footer style="background-color:#013a71; margin-top: -25px;">
+        <section class="mt-4">
+            <div class="container pt-4">
+                <div class="row w-100">
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                        <h5> Contact With Us </h5>
+                        <br><br>
+
+
+
+                        <div class="contact-info d-flex justify-content-start">
+                            <i style="color: white;" class="fa fa-globe icon"></i>
+                            <div class="info-text">
+                                <h6>Head Office</h6>
+                                <p>SD-1, Block A North Nazimabad Town, Karachi</p>
+                            </div>
+                        </div>
+                        <div class="contact-info pt-3 d-flex justify-content-start flex-wrap">
+                            <i style="color: white;" style="color: white;" class="fa fa-envelope icon"></i>
+                            <div class="info-text">
+                                <h6>Email</h6>
+                                <a href="mailto:shahrukhaptech5@gmail.com"><span>shahrukhaptech5@gmail.com</span></a>
+                            </div>
+                        </div>
+                        <div class="contact-info pt-3 d-flex justify-content-start flex-wrap helpline-hide">
+                            <i style="color: white;" class="fa fa-phone icon"></i>
+                            <div class="info-text">
+                                <h6>Phone</h6>
+                                <p><a href="tel:03112832876">0311 2832876</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-info pt-3 d-flex justify-content-start flex-wrap helpline-hide">
+                            <i style="color: white;" class="fa fa-phone icon"></i>
+                            <div class="info-text">
+                                <h6>Call Center Timings</h6>
+                                <p>10 AM to 11 PM</p>
+                                <p>(Monday - Saturday)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                        <h5> Company </h5>
+                        <br><br>
+
+
+                        <ul class="links">
+                            <li><a href="../Home-Pages/About.html">About us</a></li><br>
+                            <li><a href="../Home-Pages/contact.html">Contact us</a></li><br>
+                            <li><a href="../Home-Pages/Terms.html">Terms & Conditions</a></li><br>
+                            <li><a href="../Home-Pages/Privicy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <br> <br> <br>
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+
+                        <h5>Useful Links</h5>
+
+                        <br><br>
+
+                        <ul class="links">
+
+                            <li><a href="../Services-pages/Hospital.html">Hospitals in Karachi</a></li><br>
+                            <li><a href="../Services-pages/Clinics.html">Clinics in Karachi</a></li><br>
+                            <li><a href="../Services-pages/BloodBank.html">BloodBank in Karachi</a></li><br>
+                            <li><a href="../Services-pages/Ambulance.html">Ambulances in Karachi</a></li><br>
+
+                            <li><a href="../Services-pages/HomeService.html">Home Service in Karachi</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                        <h5>Connect With Us</h5>
+                       
+
+                        
+                        <div id="social-icons" class="d-flex align-items-center flex-wrap">
+                            <a href="https://twitter.com" target="_blank" class="m-2">
+                                <svg version="1.1" id="Capa_1" width="20px" height="20px"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                    xml:space="preserve">
+                                    <g>
+                                        <path style="fill:#03A9F4;"
+                                            d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.4C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568C480.224,136.96,497.728,118.496,512,97.248z" />
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://www.facebook.com" target="_blank" class="m-2">
+                                <svg version="1.1" id="Capa_1" width="20px" height="20px"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 112.196 112.196"
+                                    style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve">
+                                    <g>
+                                        <circle style="fill:#3B5998;" cx="56.098" cy="56.098" r="56.098" />
+                                        <path style="fill:#FFFFFF;"
+                                            d="M70.201,58.294h-10.01v36.672H45.025V58.294h-7.213V45.406h7.213v-8.34c0-5.964,2.833-15.303,15.301-15.303L71.56,21.81v12.51h-8.151c-1.337,0-3.217,0.668-3.217,3.513v7.585h11.334L70.201,58.294z" />
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" class="m-1">
+                                <svg version="1.1" id="Capa_1" width="20px" height="20px"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 112.196 112.196"
+                                    style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve">
+                                    <circle style="fill:#007AB9;" cx="56.098" cy="56.097" r="56.098" />
+                                    <g>
+                                        <path style="fill:#F1F2F2;"
+                                            d="M89.616,60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118c-3.705,0-5.906,2.491-6.878,4.903c-0.353,0.862-0.444,2.059-0.444,3.268v22.524H48.684c0,0,0.18-36.546,0-40.329h13.411v5.715c-0.027,0.045-0.065,0.089-0.089,0.132h0.089v-0.132c1.782-2.742,4.96-6.662,12.085-6.662C83.002,42.462,89.616,48.226,89.616,60.611L89.616,60.611z M34.656,23.969c-4.587,0-7.588,3.011-7.588,6.967c0,3.872,2.914,6.97,7.412,6.97h0.087c4.677,0,7.585-3.098,7.585-6.97C42.063,26.98,39.244,23.969,34.656,23.969L34.656,23.969z M27.865,83.739H41.27V43.409H27.865V83.739z" />
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" class="m-2">
+                                <svg enable-background="new 0 0 24 24" height="20px" viewBox="0 0 24 24" width="20px"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <linearGradient id="SVGID_1_"
+                                        gradientTransform="matrix(0 -1.982 -1.844 0 -132.522 -51.077)"
+                                        gradientUnits="userSpaceOnUse" x1="-37.106" x2="-26.555" y1="-72.705"
+                                        y2="-84.047">
+                                        <stop offset="0" stop-color="#fd5" />
+                                        <stop offset=".5" stop-color="#ff543e" />
+                                        <stop offset="1" stop-color="#c837ab" />
+                                    </linearGradient>
+                                    <path
+                                        d="m1.5 1.633c-1.886 1.959-1.5 4.04-1.5 10.362 0 5.25-.916 10.513 3.878 11.752 1.497.385 14.761.385 16.256-.002 1.996-.515 3.62-2.134 3.842-4.957.031-.394.031-13.185-.001-13.587-.236-3.007-2.087-4.74-4.526-5.091-.559-.081-.671-.105-3.539-.11-10.173.005-12.403-.448-14.41 1.633z"
+                                        fill="url(#SVGID_1_)" />
+                                    <path
+                                        d="m11.998 3.139c-3.631 0-7.079-.323-8.396 3.057-.544 1.396-.465 3.209-.465 5.805 0 2.278-.073 4.419.465 5.804 1.314 3.382 4.79 3.058 8.394 3.058 3.477 0 7.062.362 8.395-3.058.545-1.41.465-3.196.465-5.804 0-3.462.191-5.697-1.488-7.375-1.7-1.7-3.999-1.487-7.374-1.487zm-.794 1.597c7.574-.012 8.538-.854 8.006 10.843-.189 4.137-3.339 3.683-7.211 3.683-7.06 0-7.263-.202-7.263-7.265 0-7.145.56-7.257 6.468-7.263zm5.524 1.471c-.587 0-1.063.476-1.063 1.063s.476 1.063 1.063 1.063 1.063-.476 1.063-1.063-.476-1.063-1.063-1.063zm-4.73 1.243c-2.513 0-4.55 2.038-4.55 4.551s2.037 4.55 4.55 4.55 4.549-2.037 4.549-4.55-2.036-4.551-4.549-4.551zm0 1.597c3.905 0 3.91 5.908 0 5.908-3.904 0-3.91-5.908 0-5.908z"
+                                        fill="#fff" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div>
+                            <div class="d-flex flex-row justify-content-start app-logos ml-n2">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-100 mb-n4">
+                    <div class="col-12">
+                        <p class="text-center" id="rights">Copyright © 2018-2021 HAPPINESS IS HEALTH | All Rights Are
+                            Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
